@@ -1,33 +1,34 @@
-# YouTube Tutorial Video Workflow
+# YouTube Tutorial Video Workflow (Veo 3)
 
-A reusable VideoExpress workflow for polished, creator-led software tutorials modeled on the supplied *How to Use Hermes AI Agent* reference. The style alternates a personable on-camera host with crisp desktop screen recordings and short host returns.
+A Veo-oriented adaptation of the host-led software tutorial workflow. It combines a real presenter and authentic screen recordings with short, generated Veo establishing or illustrative clips.
 
-## Reference style, observed
+## Reference style
 
-The attached reference is a 10:13, 16:9 tutorial (1280×720, 29.97 fps) with one continuous stereo audio track. It uses direct-to-camera presenter footage intercut with screen recordings of web pages, setup screens, terminals, and app interfaces. Screen sections carry the practical instruction; the presenter frames the chapter, explains why a step matters, and returns for transitions and summary. The visual treatment is clean, dark-interface-friendly, with occasional title text, a brief lower-third URL, cursor emphasis, and subtle zooms/crops on important controls. There are no animated characters, historical scenes, or lip-synced fictional avatars.
+The supplied reference is a 10:13, 16:9 software tutorial. A seated host speaks to camera, alternating with readable full-screen desktop demonstrations. The host introduces the goal, explains decisions and returns for recap; the screen capture carries the exact steps. The edit uses occasional cursor emphasis, controlled crops/zooms, a title and a lower third. The style is practical and creator-led, not a cinematic fictional story.
 
-The intended adaptation is a presenter-led tutorial with the presenter speaking naturally on camera (lip sync to the recorded speech), plus screen-capture demonstrations under continuous narration. Never infer a voice model or imitate the reference presenter. Use a newly recorded or user-selected voice and identity.
+## Veo production approach
 
-## Contents
+Veo clips are short, so treat them as inserts rather than asking one generation to create the whole tutorial. For a software walkthrough, capture the actual product interface separately. Use Veo for a short opening atmosphere/result metaphor, workspace cutaways, or a consistent host shot if the chosen interface and model supports the needed controls. Record the real host and voice when possible. Do not let generated UI stand in for genuine steps.
 
-- `SYSTEM_PROMPT.md` — reusable production instructions for a browser-capable VideoExpress agent.
-- `sample/README.md` — original sample concept and storyboard.
-- `sample/SCRIPT.md` — original narration for a short demonstration video.
+## Files
 
-## Use
+- `SYSTEM_PROMPT.md` — reusable Veo-specific production instructions.
+- `sample/README.md` — original sample concept and scene plan.
+- `sample/SCRIPT.md` — original narration.
+- `sample/VEO_PROMPTS.md` — shot-sized prompts for Veo 3.
 
-Load `SYSTEM_PROMPT.md` as the agent's instructions and provide a software topic, target audience, preferred presenter, aspect ratio, and runtime. The prompt asks for all missing choices together, researches the current interface before writing click paths, and plans a scene-by-scene mix of presenter and screen footage.
+## Start a production
 
-This is a browser-automation workflow, not a direct API integration. It requires access to VideoExpress and a way to record or generate presenter speech and screen footage. The sample script is a production-ready blueprint; it has not been rendered into a playable video in this repository.
+1. Load `SYSTEM_PROMPT.md` into your production agent.
+2. Supply topic, target viewer, ratio, runtime, Veo interface (Flow, Gemini, or Vertex AI), and whether you have host footage.
+3. Verify the currently selected model, supported clip lengths, aspect ratios, reference/image features, sound options, and export behavior in the actual UI before batching generations.
+4. Generate short Veo clips, capture the real screen walkthrough, record host/narration, and assemble them in a timeline editor.
 
-## Local setup for a production
+## Model note
 
-1. Confirm the current UI and workflow from the software's official documentation or live app.
-2. Record the presenter segments with the chosen voice and camera setup; capture the software steps at readable resolution.
-3. Assemble in the editor in the order laid out by the system prompt, retaining the full spoken track.
-4. Review the exported result for factual accuracy, legible UI, audio continuity, and privacy before publishing.
+Veo product features and model names change. Google documentation currently distinguishes capabilities by model and interface. Classic Veo 3 on Vertex AI documents text-to-video, generated sound, 16:9/9:16, and 4/6/8-second clips; Flow exposes a changing set of Veo 3.1 variants and feature support. Check the live model settings and official docs linked from `SYSTEM_PROMPT.md` before production.
 
-## License and attribution
+## Output status
 
-The workflow text and sample story are original. They describe high-level production characteristics of the user-supplied reference and do not include copied frames, transcript, audio, or presenter likeness.
+The sample is a complete script, storyboard, and Veo prompt pack. No generated clips or finished tutorial video are included; rendering requires access to Veo and a timeline editor.
 
