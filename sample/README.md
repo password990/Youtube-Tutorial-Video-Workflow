@@ -1,28 +1,25 @@
-# Sample: From scattered notes to a cited briefing
+# Sample: From scattered notes to a cited briefing (Veo 3)
 
-**Format:** 16:9 host-led software tutorial · **Target:** 2 minutes · **Audience:** curious knowledge workers · **Presenter:** original generic host, newly recorded narration
+**Format:** 16:9 creator-led software tutorial · **Target:** 2 minutes · **Audience:** curious knowledge workers · **Narrator:** original, newly recorded host voice
 
-This is an original demo scenario, not a claim about any particular software product's current UI. Use a real local knowledge assistant or replace the demo UI labels with the selected tool after verifying them. The story promise: turn three sample research notes into a short briefing with traceable sources.
+**Promise:** Turn three fictional research notes into a concise briefing, then verify a cited claim. This sample is original; it does not copy dialogue or frames from the reference tutorial.
 
-## Scene plan
+## Runtime and scene plan
 
-| Time | Shot | Spoken purpose | Visual action | Edit/audio |
+| Time | Shot | Spoken purpose | Visual | Audio / edit |
 |---|---|---|---|---|
-| 0:00–0:06 | Screen preview | Hook: show a finished one-page briefing with source references. | Briefly reveal the result; highlight a source marker. | Quick push-in, then cut to host. |
-| 0:06–0:20 | Host | Explain the common problem: useful notes are scattered; today's goal is a sourced briefing. | Host at desk, medium shot, simple title “Turn notes into a cited brief”. | Direct-to-camera speech, clean room tone. |
-| 0:20–0:34 | Screen | Prepare a small, safe demo folder. | Show three fictional notes and a folder called “City Garden Research”; no personal files visible. | Cursor highlight; screen voiceover continues. |
-| 0:34–0:46 | Host | Explain why a small, well-scoped test is a better first run. | Host returns for one short explanation. | Hard cut on sentence boundary. |
-| 0:46–1:06 | Screen | Open the research assistant and choose the folder as its knowledge source. | Show the actual verified UI; zoom only on source-selection control; confirm selected folder. | Narration follows each action, no invented UI. |
-| 1:06–1:20 | Screen | Ask a focused question with a clear deliverable. | Type: “Using only these notes, summarize the strongest reasons residents support community gardens. Give three points and cite each source.” | Show full prompt before submitting. |
-| 1:20–1:32 | Screen | Run the question and distinguish waiting from results. | Show actual progress; if it takes time, cut to a labeled short progress beat. | Keep voiceover; no false instant completion. |
-| 1:32–1:47 | Screen close-up | Check the answer against its source references. | Open one cited note and compare the claim; show a correction if needed. | Brief crop/zoom; no fake citations. |
-| 1:47–1:56 | Host | Recap the workflow: small source set, narrow question, verify citations. | Host in same set and framing. | Warm, concise. |
-| 1:56–2:00 | End card | Offer next step: try the same process on one small folder. | Minimal title and project name; no unsupported claim. | Soft music only if available, speech remains clear. |
+| 0:00–0:05 | Real screen capture | Preview the completed briefing and its source references. | Actual result from selected software; highlight one citation. | Host VO starts immediately. |
+| 0:05–0:09 | Optional Veo insert | Set a visual tone for turning scattered material into a clear plan. | 4-second overhead shot of three anonymous paper notes becoming a tidy organized stack; no text. | No dialogue; soft paper movement only if desired. |
+| 0:09–0:23 | Host | Explain the scattered-notes problem and the goal. | Real host at desk, medium shot, softly lit shelves; title is added later in editor. | Direct-to-camera recorded line. |
+| 0:23–0:39 | Real screen capture | Prepare a small demo folder. | Three synthetic notes and folder in the actual OS/app. | Same host voiceover; slow cursor. |
+| 0:39–0:50 | Host | Explain why a small, scoped test is useful. | Host returns with same framing. | Hard cut at sentence boundary. |
+| 0:50–1:11 | Real screen capture | Select the folder in the actual research tool. | Show actual control and selection state; crop in editor if required. | Narration timed to actions. |
+| 1:11–1:29 | Real screen capture | Ask a focused question and submit. | Type and show the exact prompt, then submit in the real tool. | Keep any wait honest; show a short progress beat if needed. |
+| 1:29–1:44 | Real screen capture | Verify a claim by opening its source. | Display actual generated response and open one actual source. | No fake answer; narrator explains limits. |
+| 1:44–1:56 | Host | Recap the method. | Same host set/wardrobe. | Natural, concise delivery. |
+| 1:56–2:00 | Title card | One takeaway. | “Small sources. Focused question. Checked answer.” Added in post. | Music only if quiet. |
 
-## Production notes
+## Important production distinction
 
-- The interface labels above are conceptual. Replace them with exact labels only after checking the chosen software.
-- Notes should be synthetic and openly labeled as demo material.
-- Keep the sample output visible long enough to read; show at least one actual source check.
-- Narration and sample script are in `SCRIPT.md`.
+UI labels in the script are conceptual until a specific product has been chosen and checked. The tutorial must use real screen recording for every product action. Veo inserts only supply visual atmosphere; generated screen text is not used as proof of an actual feature.
 
